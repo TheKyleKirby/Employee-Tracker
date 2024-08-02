@@ -6,7 +6,7 @@ const client = new Client({
   host: "localhost",
   database: "content_manager_db",
   password: "password",
-  port: 3000,
+  port: 5432,
 });
 
 async function promptUser() {
